@@ -1,5 +1,5 @@
 import socket
-
+            # Secure sites
 list_dom = ['autodiscover.ombudsman.ky', 'autodiscover.gov.ky', 'awa.gov.ky', 'caymanaeoiportal.gov.ky', 'eas.gov.ky',
             'geo.caymanlandinfo.ky', 'investcayman.ky', 'legislation.gov.ky', 'my.caymanlandinfo.ky',
             'new.caymanlandinfo.ky', 'ombudsman.ky', 'uniregistry.com', 'cinico.ky', 'ciregistry.ky', 'dcs.gov.ky',
@@ -12,7 +12,9 @@ list_dom = ['autodiscover.ombudsman.ky', 'autodiscover.gov.ky', 'awa.gov.ky', 'c
             'investcayman.ky', 'legislation.gov.ky', 'museum.ky', 'nwda.gov.ky', 'occ.gov.ky', 'ofreg.ky',
             'ombudsman.ky', 'plancayman.gov.ky', 'planning.gov.ky', 'pspb.ky', 'rcips.ky', 'registry.gov.ky',
             'test.gov.ky', 'turtle.ky', 'ucci.edu.ky', 'vehicleinspections.gov.ky', 'verify.gov.ky',
-            'visitcaymanislands.com', 'waterauthority.ky', 'worc.gov.ky', '911.gov.ky', 'amlu.gov.ky', 'anticorruptioncommission.ky',
+            'visitcaymanislands.com', 'waterauthority.ky', 'worc.gov.ky',
+            # Insecure Sites
+            '911.gov.ky', 'amlu.gov.ky', 'anticorruptioncommission.ky',
             'gov.ky', 'caa.gov.ky', 'caymanfinance.gov.ky', 'caymanlibraries.gov.ky', 'caymanpost.gov.ky', 'caymanprepared.gov.ky',
             'caymanspirit.gov.ky', 'aoa.ky', 'cabinetoffice.gov.ky', 'archive.caymanrecovery.gov.ky', 'auditorgeneral.gov.ky',
             'cbc.gov.ky', 'centraltenders.gov.ky', 'cifs.gov.ky', 'ciipo.ky', 'cila.ky', 'cina.gov.ky', 'cipl.gov.ky', 'civilserviceappealscommission.ky',
@@ -25,8 +27,10 @@ list_dom = ['autodiscover.ombudsman.ky', 'autodiscover.gov.ky', 'awa.gov.ky', 'c
             'legislativeassembly.ky', 'lrc.gov.ky', 'maci.gov.ky', 'mcays.gov.ky', 'ministryofhealth.gov.ky', 'mof.gov.ky',
             'mtd.gov.ky', 'nau.gov.ky', 'npo.gov.ky', 'odg.gov.ky', 'oes.gov.ky', 'oftel.gov.ky', 'eservices.gov.ky', 'otp.gov.ky',
             'mof.gov.ky', 'cpiministry.gov.ky', 'pocs.gov.ky', 'cabinetoffice.gov.ky', 'recruitment.gov.ky', 'sm.gov.ky',
-            'weather.ky', 'radiocayman.gov.ky', 'dcs.gov.ky', 'rpcu.gov.ky', 'sharefile.gov.ky', 'sriu.gov.ky', 'sso.gov.ky',
-            'sunrise.gov.ky', 'thehub.gov.ky', 'tia.gov.ky', 'treasury.gov.ky', 'ueservices.gov.ky', 'usso.gov.ky', 'uwww.gov.ky',
+            'weather.ky',
+            # Parts of page are not secure
+            'radiocayman.gov.ky', 'dcs.gov.ky', 'rpcu.gov.ky', 'sharefile.gov.ky', 'sriu.gov.ky', 'sso.gov.ky',
+            'sunrise.gov.ky', 'thehub.gov.ky', 'tia.gov.ky', 'treasury.gov.ky', 'ueservices.gov.ky', 'usso.gov.ky', 'uwww.gov.ky', 
             'unhis.gov.ky', 'weather.gov.ky', 'webmail.caymanlibraries.gov.ky', 'worldclass.gov.ky', 'amlu.gov.ky', 'anticorruptioncommission.ky',
             'aoa.ky', 'apps.gov.ky', 'auditorgeneral.gov.ky',  'caa.gov.ky', 'cabinetoffice.gov.ky', 'caymanfinance.gov.ky', 'caymanlandinfo.ky',
             'caymanlibraries.gov.ky', 'caymanpost.gov.ky', 'caymanprepared.gov.ky', 'caymanprepared.ky', 'caymanrecovery.gov.ky', 'caymanroads.com',
