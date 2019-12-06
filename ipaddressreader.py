@@ -30,7 +30,7 @@ list_dom = ['autodiscover.ombudsman.ky', 'autodiscover.gov.ky', 'awa.gov.ky', 'c
             'weather.ky',
             # Parts of page are not secure
             'radiocayman.gov.ky', 'dcs.gov.ky', 'rpcu.gov.ky', 'sharefile.gov.ky', 'sriu.gov.ky', 'sso.gov.ky',
-            'sunrise.gov.ky', 'thehub.gov.ky', 'tia.gov.ky', 'treasury.gov.ky', 'ueservices.gov.ky', 'usso.gov.ky', 'uwww.gov.ky', 
+            'sunrise.gov.ky', 'thehub.gov.ky', 'tia.gov.ky', 'treasury.gov.ky', 'ueservices.gov.ky', 'usso.gov.ky', 'uwww.gov.ky',
             'unhis.gov.ky', 'weather.gov.ky', 'webmail.caymanlibraries.gov.ky', 'worldclass.gov.ky', 'amlu.gov.ky', 'anticorruptioncommission.ky',
             'aoa.ky', 'apps.gov.ky', 'auditorgeneral.gov.ky',  'caa.gov.ky', 'cabinetoffice.gov.ky', 'caymanfinance.gov.ky', 'caymanlandinfo.ky',
             'caymanlibraries.gov.ky', 'caymanpost.gov.ky', 'caymanprepared.gov.ky', 'caymanprepared.ky', 'caymanrecovery.gov.ky', 'caymanroads.com',
@@ -49,7 +49,10 @@ list_dom = ['autodiscover.ombudsman.ky', 'autodiscover.gov.ky', 'awa.gov.ky', 'c
             'weather.gov.ky', 'worldclass.gov.ky', 'wrc.gov.ky', 'ysu.gov.ky', 'pola.gov.ky', 'ysu.gov.ky']
 
 for x in list_dom:
-    print('IP of domain: ', x, socket.gethostbyname(x))
+        try:
+         print('IP of domain: ', x, socket.gethostbyname(x))
+        except:
+         print("No ip was found")
 # Secure sites are finished
 # Insecure sites are finished
 # Parts of site are not secure finished
